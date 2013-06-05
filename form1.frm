@@ -12,18 +12,6 @@ Begin VB.Form Form1
    ScaleHeight     =   398
    ScaleMode       =   3  'Pixel
    ScaleWidth      =   536
-   Begin VB.PictureBox Picture5 
-      BackColor       =   &H00FFFFFF&
-      BorderStyle     =   0  'None
-      Height          =   135
-      Left            =   0
-      ScaleHeight     =   135
-      ScaleWidth      =   135
-      TabIndex        =   30
-      Top             =   0
-      Visible         =   0   'False
-      Width           =   135
-   End
    Begin VB.Timer Timer2 
       Interval        =   1000
       Left            =   7020
@@ -2340,9 +2328,9 @@ If Play Then
     If KeyCode = 88 Then
         If Timer1.Enabled = True Then
             Timer1.Enabled = False
-            Picture5.Visible = True
-            Picture5.Width = Me.ScaleWidth
-            Picture5.Height = Me.ScaleHeight
+            'Picture5.Visible = True
+            'Picture5.Width = Me.ScaleWidth
+            'Picture5.Height = Me.ScaleHeight
             Me.Caption = ""
             Me.WindowState = vbMinimized
         Else
@@ -3563,9 +3551,9 @@ End Sub
 Private Sub Image1_Click()
 If Timer1.Enabled = True Then
     Timer1.Enabled = False
-    Picture5.Visible = True
-    Picture5.Width = Me.ScaleWidth
-    Picture5.Height = Me.ScaleHeight
+    'Picture5.Visible = True
+    'Picture5.Width = Me.ScaleWidth
+    'Picture5.Height = Me.ScaleHeight
     Me.Caption = ""
     Me.WindowState = vbMinimized
 Else
@@ -3752,7 +3740,7 @@ End If
 End Sub
 
 Private Sub Picture5_MouseDown(Button As Integer, Shift As Integer, x As Single, Y As Single)
-Picture5.Visible = False
+'Picture5.Visible = False
 Timer1.Enabled = True
 End Sub
 
