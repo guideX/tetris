@@ -1,4 +1,4 @@
-Attribute VB_Name = "Module1"
+Attribute VB_Name = "mdlTetris"
 Option Explicit
 Private Declare Function sndPlaySound Lib "winmm.dll" Alias "sndPlaySoundA" (ByVal lpszSoundName As String, ByVal uFlags As Long) As Long
 Private Declare Function mciSendString Lib "winmm.dll" Alias "mciSendStringA" (ByVal lpstrCommand As String, ByVal lpstrReturnString As String, ByVal uReturnLength As Integer, ByVal hwndCallback As Integer) As Long
@@ -47,8 +47,8 @@ a& = mciSendString _
 
 End Sub
 Public Sub PlayWav(sFilename As String)
-Dim x&
-x& = sndPlaySound(sFilename, 1)
+Dim X&
+X& = sndPlaySound(sFilename, 1)
 
 End Sub
 

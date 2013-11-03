@@ -1,10 +1,11 @@
 Type=Exe
-Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\Windows\SysWOW64\stdole2.tlb#OLE Automation
-Reference=*\G{00025E01-0000-0000-C000-000000000046}#5.0#0#..\..\..\Program Files (x86)\Common Files\Microsoft Shared\DAO\dao360.dll#Microsoft DAO 3.6 Object Library
-Form=form1.frm
-Module=Module1; Module1.bas
-IconForm="Form1"
-Startup="Form1"
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\Windows\SysWOW64\stdole2.tlb#OLE Automation
+Reference=*\G{00025E01-0000-0000-C000-000000000046}#5.0#0#..\..\Program Files (x86)\Common Files\Microsoft Shared\DAO\dao360.dll#Microsoft DAO 3.6 Object Library
+Form=frmMain.frm
+Module=mdlTetris; Module1.bas
+Form=frmSplash.frm
+IconForm="frmMain"
+Startup="frmMain"
 HelpFile=""
 Title="Tetris"
 ExeName32="Tetris.exe"

@@ -1,0 +1,319 @@
+//////////////////////////////////////////////////////////////////////
+/////////////////////////////// Summary //////////////////////////////
+//////////////////////////////////////////////////////////////////////
+
+		Features:  			        14
+		Components:			        18
+		Number of Files:		        43
+		Size of Files:   		       3843202
+		Size in Library:		       2886823
+
+
+		<Support>
+			Engine
+				Log
+				Kernel
+			Main Installation
+				Script
+				Setup
+				StrTbl
+				RunTime
+				Resource
+		<Data>
+			Disk<1>
+			DefaultFeature
+			ScannedProject1
+
+
+//////////////////////////////////////////////////////////////////////
+///////////////////////////// Features ///////////////////////////////
+//////////////////////////////////////////////////////////////////////
+
+*<Support>*
+
+		Component
+		------------------------------------------------------
+
+*<Support>\Engine*
+
+		Component
+		------------------------------------------------------
+
+*<Support>\Engine\Log*
+
+		Component
+		------------------------------------------------------
+
+*<Support>\Engine\Kernel*
+
+		Component
+		------------------------------------------------------
+		"<Engine>Kernel Placeholder"
+		"<Engine>EngineCommonPlaceHolderSelfReg"
+
+*<Support>\Main Installation*
+
+		Component
+		------------------------------------------------------
+
+*<Support>\Main Installation\Script*
+
+		Component
+		------------------------------------------------------
+		"<Support>Script"
+
+*<Support>\Main Installation\Setup*
+
+		Component
+		------------------------------------------------------
+		"<Support>Language Independent OS Independent Files"
+		"<Support>0x0409 OS Independent Files"
+		"<Support>Build Generated Support Files"
+		"<Support>Misc Support Files"
+		"<Support>Misc i64 Support Files"
+		"<Support>Misc x64 Support Files"
+
+*<Support>\Main Installation\StrTbl*
+
+		Component
+		------------------------------------------------------
+		"<Support>0x0409 String Tables"
+
+*<Support>\Main Installation\RunTime*
+
+		Component
+		------------------------------------------------------
+		"<Support>Non-SelfRegistering"
+
+*<Support>\Main Installation\Resource*
+
+		Component
+		------------------------------------------------------
+		"<Support>0x0409 Files"
+
+*<Data>*
+
+		Component
+		------------------------------------------------------
+
+*<Data>\Disk<1>*
+
+		Component
+		------------------------------------------------------
+		"<Disk1>Disk1 Files(1)"
+		"<Disk1>Disk1 Files(2)"
+		"<Disk1>Disk1 Files(3)"
+		"<Disk1>Disk1 Files(4)"
+
+*<Data>\DefaultFeature*
+
+		Component
+		------------------------------------------------------
+		"DefaultComponent"
+
+*<Data>\ScannedProject1*
+
+		Component
+		------------------------------------------------------
+		"TARGETDIRFiles"
+
+
+//////////////////////////////////////////////////////////////////////
+///////////////////////////// Components ////////////////////////////
+//////////////////////////////////////////////////////////////////////
+
+><Engine>Kernel Placeholder<
+
+		Size of Files:   		             0
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+
+><Engine>EngineCommonPlaceHolderSelfReg<
+
+		Size of Files:   		             0
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+
+><Support>Script<
+
+		Size of Files:   		        223269
+		Size in Library:		        223269
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+		"setup.inx"                                             10/27/2013  12:11:08 PM       223269  ""                 "A"           "76970538a9aadbee3bde3febb7000663"      "c:\dev\tetris\installer\nexgen tetris\script files\setup.inx"
+
+><Support>Language Independent OS Independent Files<
+
+		Size of Files:   		         11493
+		Size in Library:		          2605
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+		"license.rtf"                                           11/28/2004  09:52:18 AM        11493  ""                 "A"           "e7eb45e877c8cb80f56e9dbc9504e757"      "c:\program files (x86)\installshield\2010\redist\0409\license.rtf"
+
+><Support>0x0409 OS Independent Files<
+
+		Size of Files:   		             0
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+
+><Support>Build Generated Support Files<
+
+		Size of Files:   		           125
+		Size in Library:		            99
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+		"fontdata.ini"                                          10/27/2013  12:11:10 PM           39  ""                 "A"           "00f313e3e007599349a0c4d81c7807c4"      "c:\users\giuidex\appdata\local\temp\fontdata.ini"
+		"difxdata.ini"                                          10/27/2013  12:11:10 PM           86  ""                 "A"           "10baa5b67536f4433f37534b9c8bb828"      "c:\users\giuidex\appdata\local\temp\difxdata.ini"
+
+><Support>Misc Support Files<
+
+		Size of Files:   		         76583
+		Size in Library:		         17909
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+		"corecomp.ini"                                          03/06/2006  11:55:04 PM        65503  ""                 "A"           "09d38ceca6a012f4ce5b54f03db9b21a"      "c:\program files (x86)\installshield\2010\redist\language independent\i386\corecomp.ini"
+		"dotnetinstaller.exe"                                   06/10/2009  02:57:52 PM        11080  "16.0.0.328"       "A"           "94b6f434210bfad6abdcf818b8cf350f"      "c:\program files (x86)\installshield\2010\redist\language independent\i386\dotnetinstaller.exe"
+
+><Support>Misc i64 Support Files<
+
+		Size of Files:   		        239416
+		Size in Library:		        103979
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+		"isbew64.exe"                                           06/10/2009  02:59:18 PM       239416  "16.0.0.328"       "A"           "38eb6c08e3e7e385255119c8c732fa99"      "c:\program files (x86)\installshield\2010\redist\language independent\i64\isbew64.exe"
+
+><Support>Misc x64 Support Files<
+
+		Size of Files:   		        107320
+		Size in Library:		         52026
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+		"isbew64.exe"                                           06/10/2009  02:59:18 PM       107320  "16.0.0.328"       "A"           "41cb698f967b4d9f2580ea2a21a5a710"      "c:\program files (x86)\installshield\2010\redist\language independent\x64\isbew64.exe"
+
+><Support>0x0409 String Tables<
+
+		Size of Files:   		           514
+		Size in Library:		           249
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+		"stringtable_0x0409.ips"                                10/27/2013  12:11:08 PM          514  ""                 "A"           "6518172e6fc350ffcff5554e53b3b5f2"      "c:\dev\tetris\installer\nexgen tetris\string tables\stringtable_0x0409.ips"
+
+><Support>Non-SelfRegistering<
+
+		Size of Files:   		        262592
+		Size in Library:		        253568
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+		"isrt.dll"                                              09/22/2009  01:08:46 AM       261424  "16.0.0.400"       "A"           "ed5aa645392883b21507c8d097fda277"      "c:\program files (x86)\installshield\2010\redist\language independent\i386\isrt.dll"
+		"default.pal"                                           03/06/2006  11:55:02 PM         1168  ""                 "A"           "0abafe3f69d053494405061de2629c82"      "c:\program files (x86)\installshield\2010\redist\language independent\i386\default.pal"
+
+><Support>0x0409 Files<
+
+		Size of Files:   		        389120
+		Size in Library:		         93551
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+		"_isres_0x0409.dll"                                     06/10/2009  02:18:52 PM       389120  "16.0.0.328"       "A"           "799988f2074c157a0f8b6c48ab975612"      "c:\program files (x86)\installshield\2010\redist\language independent\i386\skins\_isres_0x0409.dll"
+
+><Disk1>Disk1 Files(1)<
+
+		Size of Files:   		             0
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+		"layout.bin"                                            11/28/2004  10:32:10 AM            0  ""                 "A"           "d41d8cd98f00b204e9800998ecf8427e"      "c:\program files (x86)\installshield\2010\support\build\layout.bin"
+		"data1.hdr"                                             11/28/2004  10:32:10 AM            0  ""                 "A"           "d41d8cd98f00b204e9800998ecf8427e"      "c:\program files (x86)\installshield\2010\support\build\data1.hdr"
+		"data1.cab"                                             11/28/2004  10:32:10 AM            0  ""                 "A"           "d41d8cd98f00b204e9800998ecf8427e"      "c:\program files (x86)\installshield\2010\support\build\data1.cab"
+
+><Disk1>Disk1 Files(2)<
+
+		Size of Files:   		       1661027
+		Size in Library:		       1661027
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+		"setup.exe"                                             10/27/2013  12:11:10 PM       802816  "16.0.0.400"       "A"           "07c90b494645f1a143d934139f49264a"      "c:\dev\tetris\installer\nexgen tetris\media\single_exe_image\disk images\disk1\setup.exe"
+		"issetup.dll"                                           09/22/2009  01:08:46 AM       577024  "16.0.0.400"       ""            "1bf0fc52d41be3f3c1025b3971bc49a0"      "c:\dev\tetris\installer\nexgen tetris\media\single_exe_image\disk images\disk1\issetup.dll"
+		"0x0409.ini"                                            05/21/2009  03:53:56 PM        21494  ""                 "A"           "36affbd6ff77d1515cfc1c5e998fbaf9"      "c:\dev\tetris\installer\nexgen tetris\media\single_exe_image\disk images\disk1\0x0409.ini"
+		"setup.isn"                                             06/10/2009  02:29:36 PM       259693  ""                 "A"           "5b26fdb5a5a3b6c06f591b358f970236"      "c:\dev\tetris\installer\nexgen tetris\media\single_exe_image\disk images\disk1\setup.isn"
+
+><Disk1>Disk1 Files(3)<
+
+		Size of Files:   		        223269
+		Size in Library:		        223269
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+		"setup.inx"                                             10/27/2013  12:11:08 PM       223269  ""                 "A"           "76970538a9aadbee3bde3febb7000663"      "c:\dev\tetris\installer\nexgen tetris\script files\setup.inx"
+
+><Disk1>Disk1 Files(4)<
+
+		Size of Files:   		          1223
+		Size in Library:		          1223
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+		"setup.ini"                                             10/27/2013  12:11:08 PM         1223  ""                 "A"           "291e51a4c8cec7182ff3bff2e366c712"      "c:\dev\tetris\installer\nexgen tetris\media\single_exe_image\disk images\disk1\setup.ini"
+
+>DefaultComponent<
+
+		Size of Files:   		        647251
+		Size in Library:		        254049
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+		"scratch.wav"                                           04/24/1996  04:05:50 PM         1610  ""                 "A"           "a7e5f0bfb6ceb1ae860f8798ac80ac1e"      "c:\dev\tetris\scratch.wav"
+		"team nexgen website.url"                               10/27/2013  12:05:32 PM          116  ""                 "A"           "605cf6c0f77daebed8a4a374d6dac65f"      "c:\dev\tetris\team nexgen website.url"
+		"tetris.exe"                                            10/27/2013  11:53:00 AM       258048  "1.0.0.0"          "A"           "56155ac1a7ed2e24395cb51af3c19d22"      "c:\dev\tetris\tetris.exe"
+		"died.wav"                                              05/17/2001  04:33:06 PM        89724  ""                 "A"           "ee772232c13fb9f9bbe9395cc23be645"      "c:\dev\tetris\died.wav"
+		"drop.wav"                                              05/21/2001  12:13:40 PM         1340  ""                 "A"           "3595d9725c02b7bab9ffb0d67febe911"      "c:\dev\tetris\drop.wav"
+		"erase.wav"                                             05/16/2001  01:22:02 PM        15998  ""                 "A"           "0284002bb159bf20226a7bc1cdfec91b"      "c:\dev\tetris\erase.wav"
+		"levelup.wav"                                           12/07/1999  02:00:00 PM        19282  ""                 "A"           "78f089b8e0a048e6c06c381b6c01f1af"      "c:\dev\tetris\levelup.wav"
+		"rotate.wav"                                            12/07/1999  02:00:00 PM         1290  ""                 "A"           "899435422642d583aa2a28e1aa5e7b3b"      "c:\dev\tetris\rotate.wav"
+		"smash.wav"                                             09/07/2003  04:10:20 AM         4456  ""                 "A"           "f7c3e70534940ec00dd075ce527a87dd"      "c:\dev\tetris\smash.wav"
+		"splat.wav"                                             09/07/2003  04:16:52 AM         1886  ""                 "A"           "5be225f98439215225bff4085afc5570"      "c:\dev\tetris\splat.wav"
+		"tetrasnd.wav"                                          05/16/2001  06:50:14 PM        16072  ""                 "A"           "f006ce5f3bdea4fd048ebb4a0951c17a"      "c:\dev\tetris\tetrasnd.wav"
+		"tetris.ico"                                            12/07/1999  11:19:26 AM         2998  ""                 "A"           "14fbcb2ee02b97af09d4753e24d4cd1e"      "c:\dev\tetris\tetris.ico"
+		"tetrisa.mid"                                           05/15/2001  05:29:58 PM        16168  ""                 "A"           "0adc87057edf68d127e4799731c1c05b"      "c:\dev\tetris\tetrisa.mid"
+		"tetrisb.mid"                                           05/15/2001  05:31:52 PM        21099  ""                 "A"           "0fbeff55bbedcc39f7d36e47831db8e6"      "c:\dev\tetris\tetrisb.mid"
+		"tetrisc.mid"                                           05/15/2001  05:33:04 PM        56528  ""                 "A"           "3759d644041d5c7d39e79ff9d88c7a4b"      "c:\dev\tetris\tetrisc.mid"
+		"tetrisd.mid"                                           05/15/2001  05:33:30 PM        50662  ""                 "A"           "3d9a241320ae33169be33d1fc93d83d3"      "c:\dev\tetris\tetrisd.mid"
+		"tetrise.mid"                                           05/24/2001  04:06:20 PM        52555  ""                 "A"           "da40f531807e725106cbc36cc652c727"      "c:\dev\tetris\tetrise.mid"
+		"tetrisf.mid"                                           05/24/2001  04:07:22 PM        37419  ""                 "A"           "6deded27147e7308f8bfde1834c2f236"      "c:\dev\tetris\tetrisf.mid"
+
+>TARGETDIRFiles<
+
+		Size of Files:   		             0
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
